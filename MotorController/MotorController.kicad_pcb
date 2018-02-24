@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.6)
+    (last_trace_width 0.254)
     (user_trace_width 0.1524)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
@@ -736,11 +736,11 @@
   )
 
   (module Grape:atom_small (layer B.Cu) (tedit 0) (tstamp 5A81A322)
-    (at 171.2976 88.9)
-    (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
+    (at 171.2976 88.9 270)
+    (fp_text reference G*** (at 0 0 270) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0) (layer B.SilkS) hide
+    (fp_text value LOGO (at 0.75 0 270) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 0.036576 3.177312) (xy 0.066713 3.176523) (xy 0.090319 3.174814) (xy 0.110477 3.171845)
