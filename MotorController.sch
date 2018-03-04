@@ -1,102 +1,15 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:zetex
-LIBS:wiznet
-LIBS:video
-LIBS:ttl_ieee
-LIBS:transf
-LIBS:switches
-LIBS:supertex
-LIBS:stm8
-LIBS:stm32
-LIBS:silabs
-LIBS:sensors
-LIBS:rfcom
-LIBS:relays
-LIBS:references
-LIBS:pspice
-LIBS:powerint
-LIBS:onsemi
-LIBS:nxp_armmcu
-LIBS:nordicsemi
-LIBS:msp430
-LIBS:motors
-LIBS:motor_drivers
-LIBS:microchip_pic32mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic10mcu
-LIBS:microchip_dspic33dsc
-LIBS:mechanical
-LIBS:maxim
-LIBS:logo
-LIBS:ir
-LIBS:hc11
-LIBS:graphic
-LIBS:gennum
-LIBS:ftdi
-LIBS:elec-unifil
-LIBS:diode
-LIBS:dc-dc
-LIBS:cmos_ieee
-LIBS:brooktre
-LIBS:bosch
-LIBS:bbd
-LIBS:battery_management
-LIBS:analog_devices
-LIBS:allegro
-LIBS:actel
-LIBS:ac-dc
-LIBS:Zilog
-LIBS:Xicor
-LIBS:Worldsemi
-LIBS:Power_Management
-LIBS:Oscillators
-LIBS:Lattice
-LIBS:ESD_Protection
-LIBS:Altera
-LIBS:74xgxx
-LIBS:L9110
-LIBS:MotorController-cache
+LIBS:MotorController
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Motor Controller"
+Date "2018-03-04"
+Rev "v1"
+Comp "Frizzy Electronics"
+Comment1 "David Matias"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -107,7 +20,7 @@ U 1 1 58EB772B
 P 6150 3400
 F 0 "U1" H 6150 3700 60  0000 C CNN
 F 1 "L9110" H 6150 3100 60  0000 C CNN
-F 2 "SMD_Packages:SOIC-8-N" H 6150 3400 60  0001 C CNN
+F 2 "lib_fp:SOIC-8-N" H 6150 3400 60  0001 C CNN
 F 3 "" H 6150 3400 60  0000 C CNN
 	1    6150 3400
 	1    0    0    -1  
@@ -118,7 +31,7 @@ U 1 1 58EB7852
 P 6150 4350
 F 0 "U2" H 6150 4650 60  0000 C CNN
 F 1 "L9110" H 6150 4050 60  0000 C CNN
-F 2 "SMD_Packages:SOIC-8-N" H 6150 4350 60  0001 C CNN
+F 2 "lib_fp:SOIC-8-N" H 6150 4350 60  0001 C CNN
 F 3 "" H 6150 4350 60  0000 C CNN
 	1    6150 4350
 	1    0    0    -1  
@@ -129,7 +42,7 @@ U 1 1 58EB7946
 P 5100 3400
 F 0 "C3" H 5125 3500 50  0000 L CNN
 F 1 "0.1uF" H 5125 3300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5138 3250 50  0001 C CNN
+F 2 "lib_fp:C_0805_HandSoldering" H 5138 3250 50  0001 C CNN
 F 3 "" H 5100 3400 50  0001 C CNN
 	1    5100 3400
 	1    0    0    -1  
@@ -140,7 +53,7 @@ U 1 1 58EB79B1
 P 5100 4350
 F 0 "C4" H 5125 4450 50  0000 L CNN
 F 1 "0.1uF" H 5125 4250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5138 4200 50  0001 C CNN
+F 2 "lib_fp:C_0805_HandSoldering" H 5138 4200 50  0001 C CNN
 F 3 "" H 5100 4350 50  0001 C CNN
 	1    5100 4350
 	1    0    0    -1  
@@ -151,7 +64,7 @@ U 1 1 58EB7A1F
 P 7750 2800
 F 0 "R2" V 7830 2800 50  0000 C CNN
 F 1 "10K" V 7750 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7680 2800 50  0001 C CNN
+F 2 "lib_fp:R_0805_HandSoldering" V 7680 2800 50  0001 C CNN
 F 3 "" H 7750 2800 50  0001 C CNN
 	1    7750 2800
 	1    0    0    -1  
@@ -162,7 +75,7 @@ U 1 1 58EB7A74
 P 4000 4000
 F 0 "D1" H 4000 4100 50  0000 C CNN
 F 1 "LED" H 4000 3900 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 4000 4000 50  0001 C CNN
+F 2 "lib_fp:LED_0805" H 4000 4000 50  0001 C CNN
 F 3 "" H 4000 4000 50  0001 C CNN
 	1    4000 4000
 	0    -1   -1   0   
@@ -195,7 +108,7 @@ U 1 1 58EB7E0D
 P 9000 3900
 F 0 "P2" H 9000 4250 50  0000 C CNN
 F 1 "CONN_01X06" V 9100 3900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 9000 3900 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x06_Pitch2.54mm" H 9000 3900 50  0001 C CNN
 F 3 "" H 9000 3900 50  0001 C CNN
 	1    9000 3900
 	1    0    0    -1  
@@ -206,7 +119,7 @@ U 1 1 58EB7E66
 P 4450 3400
 F 0 "P!1" H 4450 3550 50  0000 C CNN
 F 1 "MOTOR_1" V 4550 3400 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled" H 4450 3400 50  0001 C CNN
+F 2 "lib_fp:JST_PH_S2B-PH-K_02x2.00mm_Angled" H 4450 3400 50  0001 C CNN
 F 3 "" H 4450 3400 50  0001 C CNN
 	1    4450 3400
 	-1   0    0    1   
@@ -217,7 +130,7 @@ U 1 1 58EB7EFB
 P 4450 4350
 F 0 "P1" H 4450 4500 50  0000 C CNN
 F 1 "MOTOR_2" V 4550 4350 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled" H 4450 4350 50  0001 C CNN
+F 2 "lib_fp:JST_PH_S2B-PH-K_02x2.00mm_Angled" H 4450 4350 50  0001 C CNN
 F 3 "" H 4450 4350 50  0001 C CNN
 	1    4450 4350
 	-1   0    0    1   
@@ -228,7 +141,7 @@ U 1 1 58EB9964
 P 7950 2800
 F 0 "R3" V 8030 2800 50  0000 C CNN
 F 1 "10K" V 7950 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7880 2800 50  0001 C CNN
+F 2 "lib_fp:R_0805_HandSoldering" V 7880 2800 50  0001 C CNN
 F 3 "" H 7950 2800 50  0001 C CNN
 	1    7950 2800
 	1    0    0    -1  
@@ -239,7 +152,7 @@ U 1 1 58EB9996
 P 8150 2800
 F 0 "R4" V 8230 2800 50  0000 C CNN
 F 1 "10K" V 8150 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8080 2800 50  0001 C CNN
+F 2 "lib_fp:R_0805_HandSoldering" V 8080 2800 50  0001 C CNN
 F 3 "" H 8150 2800 50  0001 C CNN
 	1    8150 2800
 	1    0    0    -1  
@@ -250,7 +163,7 @@ U 1 1 58EB99CB
 P 8350 2800
 F 0 "R5" V 8430 2800 50  0000 C CNN
 F 1 "10K" V 8350 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8280 2800 50  0001 C CNN
+F 2 "lib_fp:R_0805_HandSoldering" V 8280 2800 50  0001 C CNN
 F 3 "" H 8350 2800 50  0001 C CNN
 	1    8350 2800
 	1    0    0    -1  
@@ -388,7 +301,7 @@ U 1 1 58EBA8D6
 P 4000 3650
 F 0 "R1" V 4080 3650 50  0000 C CNN
 F 1 "1K" V 4000 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3930 3650 50  0001 C CNN
+F 2 "lib_fp:R_0805_HandSoldering" V 3930 3650 50  0001 C CNN
 F 3 "" H 4000 3650 50  0001 C CNN
 	1    4000 3650
 	1    0    0    -1  
@@ -416,7 +329,7 @@ U 1 1 58EBB1AD
 P 2850 3850
 F 0 "C1" H 2875 3950 50  0000 L CNN
 F 1 "10uF" H 2875 3750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2888 3700 50  0001 C CNN
+F 2 "lib_fp:C_0805_HandSoldering" H 2888 3700 50  0001 C CNN
 F 3 "" H 2850 3850 50  0001 C CNN
 	1    2850 3850
 	1    0    0    -1  
@@ -427,7 +340,7 @@ U 1 1 58EBB323
 P 3250 3850
 F 0 "C2" H 3275 3950 50  0000 L CNN
 F 1 "0.1uF" H 3275 3750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3288 3700 50  0001 C CNN
+F 2 "lib_fp:C_0805_HandSoldering" H 3288 3700 50  0001 C CNN
 F 3 "" H 3250 3850 50  0001 C CNN
 	1    3250 3850
 	1    0    0    -1  
