@@ -1,0 +1,13 @@
+"Id";"Identificador";"Empaquetado";"Cantidad";"Identificación";"Suministrador y ref";
+1;"P1";"JST_PH_S2B-PH-K_02x2.00mm_Angled";1;"MOTOR_2";;;
+2;"P!1";"JST_PH_S2B-PH-K_02x2.00mm_Angled";1;"MOTOR_1";;;
+3;"C1";"C_0805_HandSoldering";1;"10uF";;;
+4;"C2,C3,C4";"C_0805_HandSoldering";3;"0.1uF";;;
+5;"D1";"LED_0805";1;"LED";;;
+6;"P2";"Pin_Header_Straight_1x06_Pitch2.54mm";1;"CONN_01X06";;;
+7;"R1";"R_0805_HandSoldering";1;"1K";;;
+8;"R2,R3,R4,R5";"R_0805_HandSoldering";4;"10K";;;
+9;"REF**";"MountingHole_3.2mm_M3_ISO14580";1;"MountingHole_3.2mm_M3_ISO14580";;;
+10;"U1,U2";"SOIC-8-N";2;"L9110";;;
+11;"G***";"atom_small";1;"LOGO";;;
+12;"G***";"web";1;"LOGO";;;
